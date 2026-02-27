@@ -4,13 +4,13 @@
   "provider": {
     "local_rag": {
       "npm": "@ai-sdk/openai-compatible",
-      "name": "Local RAG",
+      "name": "Yamaha Aerox RAG",
       "options": {
         "baseURL": "http://127.0.0.1:5005/v1"
       },
       "models": {
-        "dota2-rag": {
-          "name": "Dota 2 RAG (Ollama)",
+        "aerox-rag": {
+          "name": "Yamaha Aerox Assistant (Llama 3.2)",
           "limit": {
             "context": 8192,
             "output": 2048
@@ -19,5 +19,5 @@
       }
     }
   },
-  "model": "local_rag/dota2-rag"
+  "model": "local_rag/aerox-rag"
 }

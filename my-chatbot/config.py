@@ -2,7 +2,7 @@
 from pathlib import Path
 
 # Model configuration
-MODEL = "llama3.2:3b"
+MODEL = "tinyllama:latest"
 
 # Knowledge base directory
 KB_DIR = Path(__file__).parent / "knowledge_base"

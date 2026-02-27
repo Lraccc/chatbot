@@ -142,7 +142,7 @@ async def v1_models():
         "object": "list",
         "data": [
             {
-                "id": "dota2-rag",
+                "id": "aerox-rag",
                 "object": "model",
                 "created": created,
                 "owned_by": "local"
@@ -164,7 +164,7 @@ async def v1_chat_completions(req: OpenAIChatCompletionsRequest):
 
     created = int(time.time())
     resp_id = f"chatcmpl-{uuid.uuid4().hex}"
-    model = req.model or "dota2-rag"
+    model = req.model or "aerox-rag"
 
     if req.stream:
         def event_stream():
@@ -235,7 +235,7 @@ async def v1_completions(req: OpenAICompletionsRequest):
 
     created = int(time.time())
     resp_id = f"cmpl-{uuid.uuid4().hex}"
-    model = req.model or "dota2-rag"
+    model = req.model or "aerox-rag"
 
     if req.stream:
         def event_stream():
