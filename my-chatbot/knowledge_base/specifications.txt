@@ -1,0 +1,74 @@
+Yamaha Aerox Technical Specifications
+
+Engine Specifications
+
+Aerox 155 (Current Model)
+- Engine Type: Liquid-cooled, 4-stroke, SOHC, 4-valve
+- Displacement: 155cc
+- Bore x Stroke: 58.0 mm x 58.7 mm
+- Compression Ratio: 11.0:1
+- Maximum Power: 15.4 PS @ 8,000 rpm
+- Maximum Torque: 13.9 Nm @ 6,500 rpm
+- Fuel System: Fuel injection
+- Engine Oil Capacity: 1.0 liter
+- Starting System: Electric start
+
+Dimensions and Weight
+- Overall Length: 1,960 mm
+- Overall Width: 740 mm
+- Overall Height: 1,145 mm
+- Wheelbase: 1,350 mm
+- Seat Height: 790 mm
+- Ground Clearance: 135 mm
+- Wet Weight: Approximately 115-120 kg (varies by version)
+
+Fuel System
+- Fuel Tank Capacity: 5.5 liters
+- Fuel Type: Unleaded gasoline (RON 91 or higher recommended)
+- Average Fuel Consumption: 35-45 km/l (depending on riding conditions)
+
+Transmission
+- Type: Automatic V-belt transmission (CVT)
+- Final Drive: Belt drive
+
+Chassis and Suspension
+- Frame Type: Underbone frame
+- Front Suspension: Telescopic fork with 110 mm travel
+- Rear Suspension: Swing arm with dual shock absorbers, 95 mm travel
+
+Braking System
+- Front Brake: Single hydraulic disc brake (230 mm)
+- Rear Brake: Single hydraulic disc brake (230 mm)
+- ABS: Available on select models
+- Brake Type: Dual-channel ABS or single-channel ABS depending on variant
+
+Wheels and Tires
+- Front Wheel: 14-inch aluminum alloy
+- Rear Wheel: 13-inch aluminum alloy
+- Front Tire Size: 110/80-14
+- Rear Tire Size: 140/70-13
+- Tire Type: Tubeless
+
+Electrical System
+- Battery: 12V, 5Ah
+- Headlight: LED (on newer models)
+- Tail Light: LED
+
+Aerox 50cc (European Model)
+- Engine Type: 2-stroke, liquid-cooled (older models) or 4-stroke (newer models)
+- Displacement: 50cc
+- Maximum Speed: Approximately 45 km/h (restricted versions)
+- Power Output: Around 2-3 kW
+
+Performance Specifications
+- Top Speed (155cc): Approximately 110-120 km/h
+- Acceleration 0-60 km/h: Approximately 5-6 seconds
+- Fuel Economy: 35-45 km/l (under normal riding conditions)
+
+Color Options (varies by market and year)
+- Matte Red
+- Matte Blue
+- Racing Blue
+- Black
+- White
+- Special edition colors and graphics packages

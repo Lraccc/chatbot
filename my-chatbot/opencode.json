@@ -1,36 +1,23 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "model": "fastapi/llama3.2:1b",
+  "instructions": ["README.md"],
   "provider": {
-    "fastapi": {
+    "local_rag": {
       "npm": "@ai-sdk/openai-compatible",
-      "name": "FastAPI Chatbot (local)",
+      "name": "Local RAG",
       "options": {
-        "baseURL": "http://localhost:5005/v1"
+        "baseURL": "http://127.0.0.1:5005/v1"
       },
       "models": {
-        "llama3.2:1b": {
-          "name": "Llama 3.2 1B via FastAPI"
-        }
-      }
-    },
-    "ollama": {
-      "npm": "@ai-sdk/openai-compatible",
-      "name": "Ollama (local)",
-      "options": {
-        "baseURL": "http://localhost:11434/v1"
-      },
-      "models": {
-        "tinyllama": {
-          "name": "TinyLlama"
-        },
-        "llama3.2:1b": {
-          "name": "Llama 3.2 1B"
-        },
-        "llama3.2:3b": {
-          "name": "Llama 3.2 3B"
+        "dota2-rag": {
+          "name": "Dota 2 RAG (Ollama)",
+          "limit": {
+            "context": 8192,
+            "output": 2048
+          }
         }
       }
     }
-  }
+  },
+  "model": "local_rag/dota2-rag"
 }
