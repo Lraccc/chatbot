@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import HTMLResponse, StreamingResponse
+from fastapi.responses import FileResponse, StreamingResponse
 from pydantic import BaseModel
 from contextlib import asynccontextmanager
 from typing import Union, List, Any, Dict, Tuple
@@ -309,7 +309,7 @@ def _rag_answer(prompt_text: str) -> tuple[str, list[str]]:
 
 @app.get("/")
 async def root():
-    return HTMLResponse(content=HTML_CONTENT)
+    return FileResponse("index.html")
 
 
 @app.get("/health")
